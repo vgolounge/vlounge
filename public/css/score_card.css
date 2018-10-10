@@ -1,0 +1,25 @@
+.t-color {
+    color:#f0b412 !important;
+}
+.inline-block {
+    display:inline-block;
+}
+.dead {
+    opacity:0.3;
+}
+.ct-color {
+    color: #3681c5 !important;
+}
+.ctheader {
+    background-color :#3681c5;
+}
+.theader {
+    background-color:#f0b412;
+}
+.ct_player {
+    background-color:#3681c5;
+}
+.t_player {
+    background-color:#f0b412;
+
+}

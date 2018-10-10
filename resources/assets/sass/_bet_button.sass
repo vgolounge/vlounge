@@ -1,0 +1,26 @@
+.button-bet
+  width: 91px
+  background-color: $primaryColor
+  border: none
+  cursor: pointer
+  padding-top: 3px
+  padding-bottom: 5px
+  color: #FFF
+  font-size: 18px
+  line-height: 24px
+  text-align: center
+  border-radius: 16px
+  &.outline
+    background: none
+    border: 1.5px solid $primaryColor
+    color: $primaryColor
+  &:hover
+    opacity: .9
+  &[disabled]
+    opacity: .4
+    cursor: not-allowed
+  +mobile
+    &.small
+      width: 43px
+      font-size: 9px
+      line-height: 11px

@@ -1,0 +1,29 @@
+.matchrow:hover {
+    background-color:#eeeeee;
+}
+.clickable {
+    cursor:pointer;
+}
+.bg-transparent {
+    background: none;
+}
+
+.is-vertical-center {
+    display: flex;
+    align-items: center;
+}
+.winner {
+    color: #449d44;
+}
+.loser {
+    color:#761c19;
+}
+.tab-content {
+    display:none;
+}
+.tab-content.is-active {
+    display: block;
+}
+.other-bets-options {
+	display:none;
+}

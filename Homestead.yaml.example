@@ -1,0 +1,13 @@
+---
+ip: "192.168.10.10"
+memory: 1024
+cpus: 1
+provider: virtualbox
+
+folders:
+    - map: ~/projects
+      to: /vagrant/projects
+sites:
+    - map: vgo.test
+      to: /vagrant/projects/vgo-www/public
+      type: laravel

@@ -1,0 +1,16 @@
+@import "bulma/bulma";
+
+@import "app";
+
+$primaryColor: #F48400;
+
+@import "bet_button";
+
+@import "pages/frontpage";
+@import "pages/match";
+@import "pages/match_react";
+
+
+#admin-dashboard {
+  background: white;
+}

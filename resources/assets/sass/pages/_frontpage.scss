@@ -1,0 +1,282 @@
+.heading-h1 {
+    padding-top:12px;
+    margin-top:12px;
+    line-height: 24px;
+    color: white;
+    font-size: 18px;
+}
+#front_page {
+    max-width:1344px;
+    margin-left:auto;
+    margin-right:auto;
+    color:black;
+}
+#front_page .button-bet {
+    width: 91px;
+    background-color: #F48400;
+    border: none;
+    cursor: pointer;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 16px;
+}
+.menu-text a {
+    color: #9E9E9E;
+    font-size: 12px;
+    line-height: 16px;
+}
+.grouped-dropdowns .dropdown:first-child{
+    padding-left:13px;
+    background-color:white;
+    border-radius:17px 0 0 17px;
+}
+.grouped-dropdowns .dropdown:last-child{
+    padding-right:13px;
+    background-color:white;
+    border-radius:0 17px 17px 0;
+}
+.grouped-dropdowns .dropdown .dropdown-trigger .button{
+    border:none !important;
+    border-radius: 0px !important;
+}
+.live-green-dot {
+    border-radius:50%;
+    width:12px;
+    height:12px;
+    background-color:lawngreen;
+    display:inline-block;
+    margin-right:10px;
+}
+.match-block{
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:15px;
+
+}
+.match-inner-block {
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.5);
+    border-radius: 3px;
+    background-color:#fff;
+    width:305px;
+    padding:15px;
+
+}
+.game-image {
+    width:66px;
+    height:50px;
+    margin-left:auto;
+    margin-right:auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#front_page .match-score {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 18px;
+    padding-top:30px;
+}
+.team-image-hori {
+    width:auto;
+    height:37px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.team-image {
+    width:auto;
+    height:90px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.team-name {
+    line-height: 18px;
+    font-size: 18px;
+    hyphens:auto;
+    height:60px;
+}
+.odds-text {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    margin-bottom: 14px;
+    text-align: center;
+}
+.bet-button {
+    color:white;
+    font-size: 8px;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius:7px;
+    background-color: #F48400;
+    border:none;
+    box-shadow: none;
+}
+.break-line {
+    margin:0;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.tournament-logo {
+    width:50px;
+    height:50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left:auto;
+    margin-right:auto;
+}
+.tournament-name {
+    font-weight: 500;
+    font-size:14px;
+    line-height:20px;
+    color:#000;
+    text-align:center;
+}
+.tournament-stage {
+    font-weight: 500;
+    font-size:12px;
+    line-height:15px;
+    color:#000;
+    text-align:center;
+}
+.stream-icon-hori {
+    width:45px;
+    height:45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left:auto;
+    margin-top:10px;
+    margin-bottom:auto;
+    margin-right:auto;
+
+}
+.stream-icon {
+    width:30px;
+    height:30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left:auto;
+    margin-top:10px;
+    margin-bottom:auto;
+    margin-right:auto;
+}
+
+@media screen and (max-width: 769px) {
+    .match-block-container {
+        width: 100%;
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+}
+.max-width {
+    width:1065px;
+}
+
+.match-block-container {
+    width:100%;
+}
+.side-menu {
+    padding:10px;
+    padding-left:30px;
+    background: white;
+}
+.grey-white-highlight {
+    color:grey;
+
+}
+.clickable {
+    cursor: pointer;
+}
+.grey-white-highlight:hover {
+    color:white;
+}
+.side-icons {
+    padding:6px;
+}
+.site-body {
+    overflow: hidden;
+}
+.match-block-hori {
+    background-color:white;
+    padding:15px;
+    width:100%;
+    margin-top:7px;
+    margin-bottom:20px;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.5);
+}
+.team-name-hori {
+    font-size:14px;
+    line-height: 11px;
+}
+.timer-hori {
+    float:left;
+    margin-top:-10px;
+    font-size:11px;
+}
+.tournament-name-hori {
+    font-size: 14px;
+}
+.match-block-hori > table {
+    width:100%;
+}
+.display-icon {
+    width:30px;
+    height:30px;
+    margin:10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display:inline-block;
+}
+.row-icon {
+    background-image:url('/svg/list(gray).svg');
+}
+.row-icon:hover, .row-icon.is-selected {
+    background-image:url('/svg/list(white).svg');
+}
+
+.stacked-icon {
+    background-image:url('/svg/card(gray).svg');
+}
+.stacked-icon:hover, .stacked-icon.is-selected {
+    background-image:url('/svg/card(white).svg');
+}
+
+#top_menu_container .dropdown-item:hover {
+    color: #F48400;
+}
+#top_menu_container .dropdown-item.is-selected {
+    border-style:solid;
+    border-color:#F48400;
+    border-width:0 0 0 5px;
+}
+.menu-list > li > a:hover {
+    color:#F48400 !important;
+}
+.menu-list > li.is-selected {
+    border-style:solid;
+    border-color:#F48400;
+    color:#F48400;
+    background-color: #F4840024;
+    border-width:0 0 0 5px;
+}
+.menu-text {
+    font-size: 14px;
+    color: #9E9E9E;
+}
+.side-menu .menu-text {
+    padding-left : 10px;
+}

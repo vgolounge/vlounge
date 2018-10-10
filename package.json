@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "vLounge",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "watch": "gulp default",
+    "js": "gulp js",
+    "css": "gulp sass"
+  },
+  "dependencies": {
+    "@babel/core": "7.0.1",
+    "@babel/preset-env": "7.0.0",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "4.1.0",
+    "gulp-concat": "2.6.1",
+    "gulp-load-plugins": "1.5.0",
+    "gulp-sass": "3.1.0",
+    "gulp-uglify": "3.0.0",
+    "@babel/preset-react": "7.0.0",
+    "babelify": "10.0.0",
+    "browserify": "16.2.2",
+    "bulma": "0.7.1",
+    "gulp-sourcemaps": "2.6.4",
+    "react": "16.5.1",
+    "react-dom": "16.5.1",
+    "react-router-dom": "4.3.1",
+    "vinyl-buffer": "1.0.1",
+    "vinyl-source-stream": "2.0.0"
+  },
+  "engines": {
+    "node": ">=6.10.0",
+    "npm": ">=6.2.0"
+  }
+}

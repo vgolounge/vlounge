@@ -1,0 +1,9 @@
+/vendor
+/.idea
+/public/csgo_teams
+Homestead.json
+Homestead.yaml
+.env
+composer.lock
+/public/css/style.css
+/public/js/app.min.js

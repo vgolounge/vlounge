@@ -1,0 +1,540 @@
+#match-page
+  max-width: 1239px
+  margin: 0 auto
+  padding: 100px 0
+
+  > .white-box:first-child
+    margin-bottom: 57px
+
+  .match-header
+    padding-top: 22px
+    padding-right: 22px
+    padding-left: 22px
+    +tablet
+      padding-bottom: 22px
+    justify-content: space-between
+    align-items: center
+    color: #000000
+    h1
+      font-weight: 500
+      font-size: 17px
+      line-height: 23px
+      +tablet
+        font-size: 24px
+        line-height: 32px
+    h2
+      font-size: 13px
+      line-height: 16px
+      +tablet
+        font-size: 18px
+        line-height: 24px
+    .match-game-logo
+      width: 102px
+      +tablet
+        width: 204px
+    .match-status
+      color: #000
+      font-size: 12px
+      font-weight: 500
+      line-height: 16px
+      +tablet
+        font-size: 24px
+        line-height: 32px
+    .column
+      text-align: left
+      &:last-child
+        text-align: right
+
+      &:nth-child(2)
+        +mobile
+          order: -1
+
+  .match-stats
+    background: #231F20
+    color: #fff
+    flex-wrap: wrap
+    margin-left: 0
+    margin-right: 0
+    .column
+      border-right: 1px solid #979797
+      text-align: center
+      &:last-child
+        border: none
+
+      &:nth-child(2)
+        +mobile
+          border-right: none
+      &:first-child, &:nth-child(2)
+        +mobile
+          border-bottom: 1px solid #979797
+
+    .stat-label
+      font-size: 7px
+      line-height: 9px
+      +tablet
+        font-size: 14px
+        line-height: 19px
+    .stat-value
+      margin-top: 9px
+      font-size: 10px
+      line-height: 13px
+      +tablet
+        margin-top: 15px
+        font-size: 20px
+        line-height: 26px
+
+  .match-score-column
+    justify-content: space-between
+    +tablet
+      justify-content: center
+
+
+  .match-teams
+    .column
+      display: flex
+      flex-direction: column
+      align-items: center
+      margin: 36px 0
+
+    .team-logo
+      width: 100px
+      margin: 10px
+      +tablet
+        width: 150px
+        margin: 20px
+
+    .team-name, .team-odds
+      color: #000
+      font-size: 14px
+      font-weight: 500
+      line-height: 19px
+      margin-bottom: 14px
+      text-align: center
+
+    .match-score
+      background-color: #5D324A
+      box-shadow: 0 1px 2px 0 rgba(0,0,0,0.5)
+      margin-top: 6px
+
+      color: #FFF
+      font-weight: 500
+      text-align: center
+
+      font-size: 18px
+      line-height: 24px
+      width: 107px
+      border-radius: 19px
+      padding-top: 5px
+      padding-bottom: 9px
+
+      +tablet
+        font-size: 36px
+        line-height: 48px
+        border-radius: 37.5px
+        width: 252px
+        padding-top: 10px
+        padding-bottom: 17px
+
+  .tabs-selector
+    position: relative
+    width: 180px
+    padding: 8px 0
+    border-radius: 17px
+    background-color: #FFF
+    color: $primaryColor
+    font-size: 13.5px
+    font-weight: 500
+    line-height: 18px
+    text-align: center
+    cursor: pointer
+    margin-bottom: 28px
+    &:after
+      content: ""
+      position: absolute
+      top: 50%
+      transform: translateY(-50%)
+      right: 19px
+      width: 0
+      height: 0
+      border-style: solid
+      border-width: 7px 10px 0 10px
+      border-color: $primaryColor transparent transparent transparent
+    img
+      height: 19px
+      margin-right: 8px
+
+    .dropdown-content
+      text-align: left
+    .dropdown-item
+      cursor: pointer
+      &:hover
+        color: $primaryColor
+
+  .other-bets
+    margin-bottom: 32px
+    overflow-x: auto
+    +tablet
+      flex-direction: column
+      overflow-x: hidden
+    > .column
+      width: 286px
+      +tablet
+        width: auto
+    .bet-description
+      position: relative
+      padding:  14px 26px 14px 11px
+      +tablet
+        padding: 36px 72px
+      .bet-title
+        color: #1A1A1A
+        font-size: 12px
+        font-weight: 500
+        line-height: 16px
+        margin-bottom: 12px
+        +tablet
+          font-size: 18px
+          line-height: 24px
+      .bet-status
+        color: #444444
+        font-size: 10px
+        line-height: 13px
+        margin-bottom: 12px
+        +tablet
+          margin-bottom: 0
+          font-size: 14px
+          line-height: 19px
+      .button-bet
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        right: 26px
+    .bet-choice
+      position: relative
+      padding:  9px 26px 13px 18px
+      margin-left: 0
+      margin-right: 0
+      align-items: center
+      &:nth-child(odd)
+        background-color: #FAFAFA
+      .column
+        &:last-child
+          padding: 0
+          border-bottom: none
+        +mobile
+          padding: 0
+        +tablet
+          border-bottom: 3px solid $primaryColor
+        &:nth-child(even)
+          text-align: right
+      .bet-title, .bet-odds
+        color: #444444
+        font-size: 10px
+        line-height: 13px
+        +tablet
+          font-size: 14px
+          line-height: 19px
+      +mobile
+        .bet-odds
+          align-self: flex-end
+      .bet-credits
+        color: #444444
+        font-size: 9px
+        line-height: 11px
+        +tablet
+          font-size: 14px
+          line-height: 19px
+
+  .match-stream
+    margin-bottom: 59px
+
+  .team-match-history
+    overflow-x: auto
+    color: #000
+    .white-box
+      width: 350px
+      padding: 12px
+    .title
+      color: #1A1A1A
+      font-size: 14px
+      line-height: 19px
+      margin-bottom: 18px
+
+    .team-logo
+      height: 50px
+    .team-name
+      font-size: 8.64px
+      font-weight: 500
+      line-height: 11px
+    .team-match
+      color: inherit
+      position: relative
+      text-align: center
+      padding: 14px
+      cursor: pointer
+      &:last-child
+        border: none
+
+      .columns
+        justify-content: space-between
+        align-items: center
+
+    .match-score
+      font-size: 18px
+      font-weight: 500
+      line-height: 24px
+    .match-date
+      font-size: 8.64px
+      font-weight: 500
+      line-height: 11px
+      margin-bottom: 11px
+
+  .match-maps
+    color: #FFF
+    font-size: 14.4px
+    font-weight: 500
+    line-height: 19px
+    +tablet
+      font-size: 18px
+      line-height: 24px
+    .match-map
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      text-align: center
+      height: 90.4px
+      width: 197.6px
+      border-radius: 19px
+      background-color: #000
+      +tablet
+        height: 113px
+        width: 247px
+        border-radius: 24px
+    .match-round
+      padding-bottom: 8px
+      min-width: 134px
+      border-bottom: 1px solid #FFF
+      +tablet
+        min-width: 168px
+        padding-bottom: 13px
+
+    .match-map-name
+      margin-top: 10px
+      +tablet
+        margin-top: 13px
+
+  .match-action-tracker
+    padding: 14px
+    color: #1A1A1A
+    font-weight: 500
+    margin-bottom: 14px
+    +tablet
+      &.white-box
+        box-shadow: none
+    .match-action-tracker-title
+      font-size: 12px
+      line-height: 16px
+      margin-bottom: 14px
+      +tablet
+        font-size: 14px
+        font-weight: 500
+        line-height: 19px
+        margin-bottom: 7px
+        margin-left: 30px
+
+    .match-actions
+      border-radius: 2px
+      background-color: #F9F9F9
+      padding: 23px 39px
+
+      max-height: 366px
+      overflow-y: auto
+    .match-action
+      font-weight: 500
+      font-size: 10px
+      line-height: 13px
+      +tablet
+        font-size: 18px
+        line-height: 24px
+        margin-bottom: 4px
+
+  .match-score-card
+    padding: 14px
+    color: #1A1A1A
+    font-weight: 500
+    margin-bottom: 14px
+
+    +tablet
+      height: 100%
+      background-color: #F9F9F9
+      box-shadow: none
+      display: flex
+      flex-direction: column
+      justify-content: center
+
+    table
+      width: 100%
+      &:first-child
+        margin-bottom: 50px
+    thead
+      border-bottom: 1px solid #979797
+    th, td
+      color: #6A6A6A
+      font-size: 19.01px
+      line-height: 25px
+      font-weight: 400
+      padding-bottom: 6px
+
+
+    .match-score-card-title
+      font-size: 12px
+      line-height: 16px
+      margin-bottom: 14px
+    .match-score-card-stat
+      display: flex
+      justify-content: space-between
+      color: #6A6A6A
+      font-size: 12px
+      line-height: 16px
+
+  .match-tabs-card
+    padding: 89px 0
+    margin-left: 0
+    margin-right: 0
+    > .column:first-child
+      min-width: 200px
+      padding: 0
+    ul
+      border-right: 1px solid rgba(151,151,151,0.41)
+
+      color: #9E9E9E
+      font-size: 18px
+      font-weight: 500
+      line-height: 24px
+      li
+        cursor: pointer
+        padding-left: 40px
+        margin-bottom: 45px
+        border-left: 5px solid transparent
+        &.is-active, &:hover
+          border-color: $primaryColor
+          color: $primaryColor
+        img
+          margin-right: 10px
+          width: 25px
+
+    .team-match-history
+      margin-left: 0
+      margin-right: 0
+      .white-box
+        width: auto
+        box-shadow: none
+      .team-match
+        display: block
+        background-color: #F9F9F9
+        &:not(:last-child):after
+          content: ""
+          position: absolute
+          bottom: 0
+          left: 10%
+          right: 10%
+          height: 1px
+          background: #979797
+
+  .match-bets
+    color: #444444
+    font-size: 14px
+    line-height: 19px
+    height: 100%
+    padding: 20px
+    +tablet
+      box-shadow: none
+      background: transparent
+    > .columns
+      height: 100%
+      > :last-child
+        text-align: center
+        border-top: 1px solid grey
+        +tablet
+          text-align: left
+          border-top: none
+
+    .column-title
+      color: #1A1A1A
+      font-weight: 500
+
+    +tablet
+      .bet-rows, .teams
+        height: 100%
+
+    .teams
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      +tablet
+        align-items: left
+    .team
+      display: flex
+      align-items: center
+
+      color: #444444
+      font-size: 20.16px
+      font-weight: 500
+      line-height: 26px
+
+
+      &:first-child
+        margin-bottom: 27px
+
+      img
+        width: 46px
+        height: 48px
+        margin-right: 20px
+
+
+.white-box
+  background-color: #FFF
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5)
+
+.modal-background
+  background: none !important
+
+.modal-content.modal-placebet
+  background: rgba(2, 2, 2, .9)
+  padding: 44px 44px 44px 92px
+  font-size: 14px
+  line-height: 19px
+  +tablet
+    border-radius: 12px
+  .tournament-title
+    font-weight: 500
+  label
+    display: block
+    font-size: 14px
+    line-height: 19px
+    margin-top: 8px
+  input
+    height: 29px
+    padding: 5px
+    width: 100%
+    display: block
+    border: 1px solid #979797
+    border-radius: 1px
+    background-color: #FFF
+  .confirm-bet
+    cursor: pointer
+    border: none
+    width: 164px
+    border-radius: 13.5px
+    background-color: $primaryColor
+    color: #FFF
+    font-size: 18px
+    line-height: 24px
+    text-align: center
+    padding-top: 2px
+    padding-bottom: 4px
+  .modal-close
+    position: absolute
+  .column:last-child
+    margin-left: auto
