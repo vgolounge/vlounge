@@ -109,7 +109,7 @@ when you are in the cloned directory please run
  
  to your cron table ( `/etc/crontab` ). 
  
- #Screenshots
+ # Screenshots
  
  <img src="/screenshot/vgo-screen1.jpg" width="500">
  <img src="/screenshot/vgo-screen2.jpg" width="500">
